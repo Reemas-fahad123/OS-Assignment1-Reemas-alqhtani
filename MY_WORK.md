@@ -284,7 +284,7 @@ with VS Code at first; however, a YouTube video helped me set up VS Code easily.
 Other challenges included name mismatches in functions,
 issues with the context switch counter and console output formatting, 
 and
-difficulties with debugging. I also struggled specifically with the `getTurnaroundTime` function.]
+difficulties with debugging. I also struggled specifically with the `getTurnaroundTime` function.Ultimately, these challenges got me used to lengthy assignments, taught me a great deal, made me truly feel like a university student, and enabled me to solve problems in a very organized way.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -300,7 +300,7 @@ I would review my code for both syntax and logic, understand the issue, and fix 
 repeatedly and checked the outputs—for instance, 
 I corrected the placement of the counter within the code. I also managed my time effectively by dedicating
 a specific slot—like an
-hour each day—to reviewing the code and fixing errors.]
+hour each day—to reviewing the code and fixing errors.The reason I was able to solve and overcome the difficulties was my calmness and following the written instructions and details provided by Dr Mahdi.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -312,7 +312,7 @@ hour each day—to reviewing the code and fixing errors.]
 if I have a task, I’ll break it down into smaller parts to make it more manageable. 
 A great example is a web browser: one thread handles displaying content while another handles 
 receiving data. Another example is a client-server scenario where multiple clients request services online; 
-each request is handled by a separate thread, allowing the system to respond to multiple threads simultaneously.]
+each request is handled by a separate thread, allowing the system to respond to multiple threads simultaneously.Modern software can achieve the highest possible performance without slowness or delay.]
 
 ### Optional: What would you like to learn more about?
 
@@ -411,32 +411,32 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): [Processor scheduling]
 
 **Description**:
-[Describe the real-world scenario.]
+[Operating systems employ various algorithms—such as those for synchronization—to manage and schedule processes, ensuring fair and organized execution. One such method is the Round Robin algorithm, which guarantees fairness and rapid response times; it assigns a specific time slice to each process, cycling them in and out of execution. This approach significantly improves responsiveness, particularly when handling multiple concurrent tasks, as the operating system rapidly switches execution between them to ensure timely processing.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[Round-Robin works exceptionally well; I appreciate it because it is inherently fair—and I value fairness. From now on, whenever I cite an example of fairness, it will be Round-Robin. It offers high responsiveness and effective time distribution, where each application or process is allocated a specific duration known as a "time quantum." The transition between open windows—or processes—is called a "context switch," a mechanism that maintains system responsiveness.]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [My favorite example—which I have mentioned before—is customer services or requests.]
 
 **Description**:
-[Describe the real-world scenario or application.]
+[To handle an environment with a massive volume of simultaneous requests—where delays must be avoided—the web server employs a scheduling mechanism that divides processor time equally among active client connections.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[I used the Round Robin algorithm because it ensures that all requests are executed without delaying any single operation. By assigning a specific time slice—known as a "time quantum"—to each process, the system treats them fairly and prevents any process from waiting indefinitely, thereby avoiding "starvation." In this setup, each process is broken down into threads, and the system switches between requests through a process called "context switching."]
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.The Life of Threads: From Creation to the End
+2.How Ready-Queue ​​Works
+3.I understood  the Context switching and time quantum
 
 **Concepts I need to study more:**
-1.
-2.
+1.I really want to understand what true synchronization actually is.
+2.Calculation of troundtime and waiting time
 
 ---
 
