@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [ٌReemas fahad mohammd alqhtani] |
+| **Student ID** | 446051392] |
+| **University Email** |446051392@std.psau.edu.sa |
+| **GitHub Username** | [Reemas-fahad123] |
+| **Repository Link** | (https://github.com/Reemas-fahad123/OS-Assignment1-Reemas-alqhtani) |
  
 ---
 
@@ -113,84 +113,104 @@
 **What I did**: Forked the repository and set up my student ID
 
 **Details**:
-- Created GitHub account with university email
-- Forked the starter repository and renamed it
-- Changed student ID on line 150 to my actual ID (441234567)
-- Compiled and ran the program successfully
-- Committed and pushed: `Set my student ID: 441234567`
-
-**Challenges**: Had to install JDK first because `javac` wasn't recognized
-
+-Created GitHub account with university email
+-Forked the starter repository and renamed it
+-Changed student ID on line 150 to my actual ID (441234567)
+-Compiled and ran the program successfully
+-Committed and pushed: Set my student ID: 441234567
+**Challenges**: Had to install JDK first because javac wasn't recognized
 **Solution**: Downloaded JDK 17 and set the PATH variable
-
 **Time spent**: 30 minutes
 
 ---
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [September 30, 2026, 7;30  Am]
+**What I did** set up the project repository and set up my student ID
 
 **Details**:
+- create my account  student emaile and forked the repository .
+- name my repository 
+- set my student id (446051392)
+-  ensured the environment was configured
+- Committed and pushed: Set my student ID: 446051392
+**Challenges**I faced some initial difficulty downloading the VC code and linking it to GitHub.
 
-**Challenges**:
+**Solution**I downloaded VC code and linked it to GitHub ز
 
-**Solution**:
-
-**Time spent**:
+**Time spent**: 20 minutes
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 2 - [october 7, 2026, 1:20 Am]
+**What I did**:i do feature1 (process priority)
 
-**Details**:
 
-**Challenges**:
+**Details**:added  the priority integer field to the Process class
+- updated constructors
+- generated random priorities (1–10)
+- Display priority when a process enters the ready queue
 
-**Solution**:
 
-**Time spent**:
 
----
+**Challenges**: i  difficulty adding priority to process class
 
-### Entry 3 - [Date and Time]
-**What I did**:
 
-**Details**:
+**Solution**:i test feature1 and every thing is corcct and i commint
 
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**:30m
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**:
+### Entry 3 - [october 7, 2026, 7:10 Pm]
+**What I did**: i did feature2 Context Switch Counter
 
-**Details**:
 
-**Challenges**:
 
-**Solution**:
 
-**Time spent**:
+**Details**: -  - adedd Add a static counter variable for context switches
+- ncremented the counter
+- -Displayed the total count in the final statistics summary table
+- and i commint
+
+**Challenges** : I encountered difficulties with calculating the total context switch count correctly and faced an error in the sum output.
+**Solution**:I fixed the logic error in the context switch incrementation and verified that the total count displayed accurately in the output.
+
+**Time spent**:40m
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 4 - [October 09, 2026, 1:40 am]
+**What I did**::i did  Feature 3 (Waiting Time and Turnaround Time Tracking)
 
-**Details**:
 
-**Challenges**:
+**Details**::Tracked waiting times
+-
+-Calculate waiting time for each process
+-Use System.currentTimeMillis() to track time
+Implemented getTurnaroundTime() method
+and i Display a summary table
+and i commint .
 
-**Solution**:
+**Challenges**: error getTurnaroundTime 
 
-**Time spent**:
+**Solution**:  i corrct and fixed eror .
+
+**Time spent**: 45m
+
+---
+
+### Entry 5 - [October 10, 2026, 1:40 AM]
+**What I did**:Completed MY_WORK.md documentation
+
+**Details** : Filled in student information and repository links 
+and other parts
+
+**Challenges**:  initially found it a bit difficult to fully understand some of the theoretical and technical concepts 
+**Solution**:⁠I organized my work step-by-step
+
+**Time spent**:1 hour
 
 ---
 
@@ -211,13 +231,13 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [5 hours]
 
-**Most challenging part**:
+**Most challenging part**:Debugging code errors during feature implementation including method naming mismatches missing methods and initial logic errors in the context switch counter before correcting the calculation output.
 
-**Most interesting learning**:
+**Most interesting learning**:Connecting theoretical OS concepts to actual Java code and particularly fixing method naming mismatches
 
-**What I would do differently next time**:
+**What I would do differently next time**:Trace the existing method names and test small changes frequently to catch logic issues early.
 
 ---
 
@@ -237,7 +257,16 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[First, we break the process down into threads to improve responsiveness. How do we create a thread in Java?sentence1
+One way is to extend the `Thread` class and override the `run` method; the `start` method is what actually
+triggers the execution of the code within `run`.
+Another approach uses the `Runnable` interface, which is similar to extending `Thread`.
+but involves creating a `Thread` object and passing the `Runnable` instance into its constructor. 
+The `Thread.join` method ensures that a task doesn't start until the preceding one has finished—much like how you can't calculate an average until you've calculated the total sum.
+The `sleep` method pauses the task for a specific duration.
+I found the concept of splitting processes to boost responsiveness really interesting.
+I had used Java before without realizing I was working on a single thread.
+but I only truly understood this after taking an Operating Systems course.]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -245,7 +274,17 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[To be honest, the assignment was demanding.
+yet easy and highly enjoyable. I learned a lot.
+though I did face some challenges. 
+First, I encountered numerous syntax and logic errors.
+Regarding initial difficulties.
+I didn't understand how to link GitHub
+with VS Code at first; however, a YouTube video helped me set up VS Code easily.
+Other challenges included name mismatches in functions,
+issues with the context switch counter and console output formatting, 
+and
+difficulties with debugging. I also struggled specifically with the `getTurnaroundTime` function.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -253,7 +292,15 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[As for how I overcame the challenges I faced: first, I took a deep breath and started reading 
+the file step-by-step,.
+as the details were clearly laid out. Regarding errors,
+the error messages weren't actually vague; 
+I would review my code for both syntax and logic, understand the issue, and fix it. I tested the code
+repeatedly and checked the outputs—for instance, 
+I corrected the placement of the counter within the code. I also managed my time effectively by dedicating
+a specific slot—like an
+hour each day—to reviewing the code and fixing errors.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -261,7 +308,11 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I love this—it’s actually one of my favorite topics. For instance,
+if I have a task, I’ll break it down into smaller parts to make it more manageable. 
+A great example is a web browser: one thread handles displaying content while another handles 
+receiving data. Another example is a client-server scenario where multiple clients request services online; 
+each request is handled by a separate thread, allowing the system to respond to multiple threads simultaneously.]
 
 ### Optional: What would you like to learn more about?
 
@@ -293,7 +344,12 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[The difference between threads and a process is that a process is a complete entity, whereas a 
+thread is a component of that process—essentially, the process is divided into threads (or tasks). 
+Threads share the same memory space within the process, making communication between them significantly easier; 
+furthermore, a thread is considered a "lightweight" process. The `Process` class I created is a *simulated* process—not an actual 
+operating system process—that holds data such as execution time, but it actually runs as a real thread within the 
+`addProcessToQueue()` function in `main`.]
 
 ## Question 2: Ready Queue Behavior
 
@@ -305,15 +361,26 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[If the process has not finished executing, it indicates that it is
+a preemptive process—meaning another process has interrupted it. Consequently,
+its remaining execution time is updated, and the process is moved to the back of the ready queue; For instance, my program output shows 
+that P2 was re-queued multiple times because its large burst time (9142ms) exceeded the quantum limit.
+it then returns to the processor based on the processor scheduling order.]
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[ Remaining time: 4142ms
+  ? P2 yields CPU for context switch
+
+  ? P2( priroty:10) added to ready queue │ Burst time: 9142ms
+┌─ Ready Queue ─────────────────────────────────────────────────────────────────
+│ [P4 ? P5 ? P6 ? P7 ? P8 ? P9 ? P10 ? P2]
+└───────────────────────────────────────────────────────────────────────────────
+]
 ```
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+[p2 has not finished; it is being added to the ready queue.]
 
 ## Question 3: Thread Lifecycle
 
@@ -323,15 +390,18 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: [In my output, a new process (p1) was created but has not yet entered
+2. the processor; it still needs to be added via
+3. `addprocesstoqueue()`.]
 
-2. **Runnable**: [When does P1 become Runnable?]
+4. **Runnable**: p1 moves to the ready queue via `processQueue.add(thread)]
 
-3. **Running**: [When is P1 Running?]
+5. **Running**: [This is the actual operation of the process—the execution
+6.  phase—initiated via `currentThread.start`.]
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+7. **Waiting**: [Process P1 enters the waiting state using the `sleep` function.]
 
-5. **Terminated**: [When is P1 Terminated?]
+8. **Terminated**: [Finally, the execution of P1 completed without it having to re-enter the queue, because its remaining time was less than the time quantum.]
 
 ## Question 4: Real-World Applications
 
