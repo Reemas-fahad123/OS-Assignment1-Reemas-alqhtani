@@ -257,7 +257,16 @@ and other parts
 
 **Your Answer:** *(5-7 sentences)*
 
-[First, we break the process down into threads to improve responsiveness. How do we create a thread in Java? One way is to extend the `Thread` class and override the `run` method; the `start` method is what actually triggers the execution of the code within `run`. Another approach uses the `Runnable` interface, which is similar to extending `Thread`, but involves creating a `Thread` object and passing the `Runnable` instance into its constructor. The `Thread.join` method ensures that a task doesn't start until the preceding one has finished—much like how you can't calculate an average until you've calculated the total sum. The `sleep` method pauses the task for a specific duration. I found the concept of splitting processes to boost responsiveness really interesting; I had used Java before without realizing I was working on a single thread, but I only truly understood this after taking an Operating Systems course.]
+[First, we break the process down into threads to improve responsiveness. How do we create a thread in Java?sentence1
+One way is to extend the `Thread` class and override the `run` method; the `start` method is what actually
+triggers the execution of the code within `run`.
+Another approach uses the `Runnable` interface, which is similar to extending `Thread`.
+but involves creating a `Thread` object and passing the `Runnable` instance into its constructor. 
+The `Thread.join` method ensures that a task doesn't start until the preceding one has finished—much like how you can't calculate an average until you've calculated the total sum.
+The `sleep` method pauses the task for a specific duration.
+I found the concept of splitting processes to boost responsiveness really interesting.
+I had used Java before without realizing I was working on a single thread.
+but I only truly understood this after taking an Operating Systems course.]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -265,11 +274,16 @@ and other parts
 
 **Your Answer:** *(5-7 sentences)*
 
-[To be honest, the assignment was demanding, yet easy and highly enjoyable. I learned a lot, though I did face some challenges. 
-First, I encountered numerous syntax and logic errors. Regarding initial difficulties, 
+[To be honest, the assignment was demanding.
+yet easy and highly enjoyable. I learned a lot.
+though I did face some challenges. 
+First, I encountered numerous syntax and logic errors.
+Regarding initial difficulties.
 I didn't understand how to link GitHub
-with VS Code at first; however, a YouTube video helped me set up VS Code easily. Other challenges included name mismatches in functions,
-issues with the context switch counter and console output formatting, and
+with VS Code at first; however, a YouTube video helped me set up VS Code easily.
+Other challenges included name mismatches in functions,
+issues with the context switch counter and console output formatting, 
+and
 difficulties with debugging. I also struggled specifically with the `getTurnaroundTime` function.]
 
 ## Question 3: How did you overcome the challenges you faced?
@@ -279,10 +293,13 @@ difficulties with debugging. I also struggled specifically with the `getTurnarou
 **Your Answer:** *(5-7 sentences)*
 
 [As for how I overcame the challenges I faced: first, I took a deep breath and started reading 
-the file step-by-step, as the details were clearly laid out. Regarding errors, the error messages weren't actually vague; 
+the file step-by-step,.
+as the details were clearly laid out. Regarding errors,
+the error messages weren't actually vague; 
 I would review my code for both syntax and logic, understand the issue, and fix it. I tested the code
 repeatedly and checked the outputs—for instance, 
-I corrected the placement of the counter within the code. I also managed my time effectively by dedicating a specific slot—like an
+I corrected the placement of the counter within the code. I also managed my time effectively by dedicating
+a specific slot—like an
 hour each day—to reviewing the code and fixing errors.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
