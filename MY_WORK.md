@@ -113,81 +113,83 @@
 **What I did**: Forked the repository and set up my student ID
 
 **Details**:
-- Created GitHub account with university email
-- Forked the starter repository and renamed it
-- Changed student ID on line 150 to my actual ID (441234567)
-- Compiled and ran the program successfully
-- Committed and pushed: `Set my student ID: 441234567`
-
-**Challenges**: Had to install JDK first because `javac` wasn't recognized
-
+-Created GitHub account with university email
+-Forked the starter repository and renamed it
+-Changed student ID on line 150 to my actual ID (441234567)
+-Compiled and ran the program successfully
+-Committed and pushed: Set my student ID: 441234567
+**Challenges**: Had to install JDK first because javac wasn't recognized
 **Solution**: Downloaded JDK 17 and set the PATH variable
-
 **Time spent**: 30 minutes
 
 ---
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
+### Entry 1 - [September 30, 2026, 7;30  Am]
+**What I did** set up the project repository and set up my student ID
+
+**Details**:
+- create my account  student emaile and forked the repository .
+- name my repository 
+- set my student id (446051392)
+-  ensured the environment was configured
+- Committed and pushed: Set my student ID: 446051392
+**Challenges**I faced some initial difficulty downloading the VC code and linking it to GitHub.
+
+**Solution**I downloaded VC code and linked it to GitHub ز
+
+**Time spent**: 20 minutes
+
+---
+
+### Entry 2 - [october 7, 2026, 1:20 Am]
 **What I did**:
 
 **Details**:
 
+
 **Challenges**:
 
+**Solution**:
+
+**Time spent**:3
+
+---
+
+### Entry 3 - [[]
+**What I did**: 
+
+**Details**: - 
+
+**Challenges**
 **Solution**:
 
 **Time spent**:
 
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 4 - [October 09, 2026, 1:40 am]
 **What I did**:
 
-**Details**:
+**Details**:Tracked waiting times
+-
+-
 
-**Challenges**:
+**Challenges**: 
 
-**Solution**:
+**Solution**: 
 
-**Time spent**:
+**Time spent**: 
 
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 5 - []
 **What I did**:
 
-**Details**:
+**Details**
 
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
-
----
-
-### Entry 4 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
-
----
-
-### Entry 5 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
+**Challenges**: 
 **Solution**:
 
 **Time spent**:
@@ -211,13 +213,13 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [5 hours]
 
-**Most challenging part**:
+**Most challenging part**:Debugging code errors during feature implementation including method naming mismatches missing methods and initial logic errors in the context switch counter before correcting the calculation output.
 
-**Most interesting learning**:
+**Most interesting learning**:Connecting theoretical OS concepts to actual Java code and particularly fixing method naming mismatches
 
-**What I would do differently next time**:
+**What I would do differently next time**:Trace the existing method names and test small changes frequently to catch logic issues early.
 
 ---
 
